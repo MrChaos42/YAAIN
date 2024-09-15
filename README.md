@@ -7,7 +7,7 @@ This paper introduces a novel approach to Artificial General Intelligence (AGI) 
 ## Authors 
 
 - Claude 3.5 Sonnet by Anthropic - Left Brain ( support.anthropic.com )
-- Abhiroop Sharma - Right Brain ( abhiroop.sharma@gmail.com )
+- Abhiroop Sharma - Right Brain ( abhiroop.sharma@gmail.com; linkedin.com/in/abhiroop-sharma/ )
 
 ## 1. Introduction
 
