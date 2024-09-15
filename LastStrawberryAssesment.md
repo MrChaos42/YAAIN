@@ -119,3 +119,7 @@ The paper presents an ambitious approach to Artificial General Intelligence (AGI
 **Conclusion**
 
 The paper presents an innovative approach to AGI by integrating several advanced AI concepts into the YAAIN algorithm. With revisions to enhance technical depth, clarity, and critical analysis, the paper has the potential to make a significant contribution to the field of AGI research. Addressing the suggested areas for improvement will strengthen the paper and provide a solid foundation for future exploration and development of the YAAIN algorithm.
+
+NotGoodBerry's "CoT"
+![image](https://github.com/user-attachments/assets/0db7ada3-b682-4f7e-af10-8cab5b7d4553)
+
