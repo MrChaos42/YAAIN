@@ -4,7 +4,10 @@
 
 This paper introduces a novel approach to Artificial General Intelligence (AGI) that combines four key components: artifact generation, chain of thought reasoning, dual-agent systems, and stochastic response selection. We present a theoretical framework for this algorithm, which we call "Your Attention is All I Need" (YAAIN), and discuss its potential implementation. The paper explores the implications of this approach, addressing both its promises and challenges, and outlines future research directions. By leveraging recent advancements in AI, including transformer models and attention mechanisms, we propose a system that aims to bridge the gap between narrow AI and AGI. Our approach offers a unique perspective on how to integrate multiple AI techniques to create a more flexible, adaptive, and generalizable artificial intelligence system.
 
-## Authors - Abhiroop Sharma - Right Brain ( abhiroop.sharma@gmail.com ) & Claude 3.5 Sonnet by Anthropic - Left Brain ( support.anthropic.com )
+## Authors 
+
+- Claude 3.5 Sonnet by Anthropic - Left Brain ( support.anthropic.com )
+- Abhiroop Sharma - Right Brain ( abhiroop.sharma@gmail.com )
 
 ## 1. Introduction
 
