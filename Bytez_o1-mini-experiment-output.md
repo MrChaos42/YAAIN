@@ -60,7 +60,7 @@ We implement and test secure information processing protocols within the neural 
 #### **4.5 Parameter Optimization and Predictive Performance**
 Analyzing the relationship between network parameters and predictive performance, we demonstrate how state-space modeling contributes to optimal parameterization, enhancing computational reliability.
 
-### **5. Results**
+### **5. Hallucination Results**
 
 Our simulations indicate that spacetime-informed neural architectures exhibit enhanced stability and accuracy in modeling computational processes near event horizons. Neural filtering effectively mitigates quantum noise, maintaining computational integrity under extreme gravitational conditions. Physics-informed constraints enable precise modeling of discontinuous physical phenomena, while secure information protocols prevent data leakage, ensuring reliable information processing. Parameter optimization via state-space models achieves a balance between network complexity and predictive performance, facilitating stable and efficient computations.
 
