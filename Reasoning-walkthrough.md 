@@ -1,0 +1,122 @@
+# YAAIN System Resolving a Complex Reasoning Question
+
+## 1. The Question
+
+Let's consider the following complex reasoning question:
+
+"In a small town, there are three types of people: truth-tellers who always tell the truth, liars who always lie, and neutrals who sometimes tell the truth and sometimes lie. You meet three people, A, B, and C. A says, 'B is a liar.' B says, 'C is a neutral.' C says, 'A is not a truth-teller.' What type is each person?"
+
+## 2. YAAIN System Approach
+
+### 2.1 Initial Processing (Dual Agent System - System 1)
+
+The fast, intuitive System 1 of the Dual Agent component quickly processes the question:
+
+1. Identifies key elements: three person types, three individuals, three statements
+2. Recognizes the logical nature of the problem
+3. Flags the need for deeper analysis due to the problem's complexity
+
+### 2.2 Problem Representation (Artifact Generation)
+
+The Artifact Generation component creates a structured representation of the problem:
+
+```
+Artifact: Logic Problem Structure
+
+Persons: A, B, C
+Types: Truth-teller, Liar, Neutral
+
+Statements:
+1. A says: "B is a liar"
+2. B says: "C is a neutral"
+3. C says: "A is not a truth-teller"
+
+Goal: Determine the type of each person
+```
+
+### 2.3 Solution Strategy (Chain of Thought Reasoning)
+
+The Chain of Thought (CoT) component outlines a strategy for solving the problem:
+
+1. List all possible type combinations for A, B, and C
+2. For each combination, evaluate the consistency of the statements
+3. Eliminate inconsistent combinations
+4. Identify the combination that satisfies all conditions
+
+### 2.4 Detailed Analysis (Dual Agent System - System 2)
+
+The slower, analytical System 2 takes over for the detailed reasoning process:
+
+#### Step 1: List all possible combinations
+
+The system generates an artifact listing all possible type combinations:
+
+```
+Artifact: Type Combinations
+
+1.  (T, T, T)    2.  (T, T, L)    3.  (T, T, N)
+4.  (T, L, T)    5.  (T, L, L)    6.  (T, L, N)
+7.  (T, N, T)    8.  (T, N, L)    9.  (T, N, N)
+10. (L, T, T)    11. (L, T, L)    12. (L, T, N)
+13. (L, L, T)    14. (L, L, L)    15. (L, L, N)
+16. (L, N, T)    17. (L, N, L)    18. (L, N, N)
+19. (N, T, T)    20. (N, T, L)    21. (N, T, N)
+22. (N, L, T)    23. (N, L, L)    24. (N, L, N)
+25. (N, N, T)    26. (N, N, L)    27. (N, N, N)
+
+T: Truth-teller, L: Liar, N: Neutral
+```
+
+#### Step 2: Evaluate each combination
+
+The system methodically evaluates each combination, creating a new artifact to track the analysis:
+
+```
+Artifact: Combination Analysis
+
+(L, L, T) - Consistent:
+- A (Liar) says "B is a liar" - True statement, but A always lies, so consistent
+- B (Liar) says "C is a neutral" - False statement, consistent for a liar
+- C (Truth-teller) says "A is not a truth-teller" - True statement, consistent
+
+All other combinations lead to contradictions.
+```
+
+#### Step 3: Conclusion
+
+The system identifies the only consistent combination: (L, L, T)
+
+### 2.5 Solution Verification (Chain of Thought Reasoning)
+
+The CoT component verifies the solution by checking each statement:
+
+1. A (Liar) says "B is a liar" - This is true, but A is lying, so it's consistent
+2. B (Liar) says "C is a neutral" - This is false, which is consistent for a liar
+3. C (Truth-teller) says "A is not a truth-teller" - This is true, consistent for a truth-teller
+
+### 2.6 Response Generation (Stochastic Response Selection)
+
+The Stochastic Response Selection component generates multiple possible response phrasings:
+
+1. "A is a liar, B is a liar, and C is a truth-teller."
+2. "The analysis reveals that A and B are both liars, while C always tells the truth."
+3. "Based on the given statements, we can conclude that A and B are liars, and C is a truth-teller."
+
+The system selects option 3 as the final response, balancing clarity and detail.
+
+## 3. Final Output
+
+The YAAIN system produces the following final output:
+
+"Based on the given statements, we can conclude that A and B are liars, and C is a truth-teller. This is the only combination that maintains consistency with all three statements made by A, B, and C."
+
+## 4. Reflection and Learning
+
+After solving the problem, the YAAIN system reflects on the process:
+
+1. Identifies the effectiveness of systematic combination analysis for logic puzzles
+2. Notes the importance of considering all possibilities before drawing conclusions
+3. Recognizes the value of creating structured artifacts (like the combination list) for complex problems
+4. Flags this problem type for future reference in similar scenarios
+
+The system updates its knowledge base with these insights, potentially improving its performance on similar problems in the future.
