@@ -1,4 +1,4 @@
-# Enhanced CoLLaR: Integrating Dynamic Prompt Injection in Chain of Linked List Reasoning
+# Enhanced CoLLaR: Integrating Dynamic Prompt Injection in Chain of Linked List Reasoning - WIP
 
 ## Abstract
 
